@@ -48,13 +48,13 @@
          use # before the name: #id-name
 
     16. What is the difference between a section and a div
-
+         a section can be used to separate a paragraph and a title together, mainly used in HTML. a div is similar and is used to help with CSS. 
 
     17. What is CSS used for? 
-
+         styling the HTML to have text fonts, colors, animations, transistions. images and links
 
     18. How to we select an element? Example - every h2 on the page
-
+        
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
 
