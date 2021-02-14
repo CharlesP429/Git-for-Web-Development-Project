@@ -93,25 +93,34 @@
          /* put your comment here */
 
     31. How do I find out what file I am in, when I am using the command line? 
-         
+         pwd
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
-
+         ls -la
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
+        git rm - because you can accidentally delete everything off your computer. like EVERY THING
 
     34. Why should I use version control? 
-
+         so you can go back through your saves and find something you missed, or redo a mistake.
 
     35. How often should I commit to github?
-
+         after every 20 mins or so
 
     36. What is the command we would use to push our repo up to github? 
-
+         git push origin -u 'firstName-lastName'
 
     37. Walk me through Lambda's git flow. 
-
+         after you fork the url from github, you "git clone url" 
+         then make your own branch "git checkout -b 'firstName-lastName'"
+         code 
+         "git add ." to save the work
+         "git commit -m 'specific description of current work posistion'"
+         after doing those two as you work, use 
+         "git push origin -u 'firstName-lastName' to push your work to the github cloud
+         you will get a URL on VScode, follow that link
+         create a pull request with your work vs the main (lambda school)
+         do not push "merge" 
 
 
 Stretch Questions
